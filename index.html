@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Space Invaders</title>
+</head>
+<body>
+    <section class="score-ui">
+        <div>
+            <span class="score">score: <span>0</span></span>
+            <span class="level">level: <span>1</span></span>
+            <span class="high">high: <span>0</span></span>
+        </div>
+    </section>
+
+    <section class="start-screen screen">
+        <div>
+            <h1>Space Invaders</h1>
+            <button class="button-play">Play</button>
+        </div>
+
+        <span>manual do dev version</span>
+    </section>
+
+    <section class="game-over screen">
+        <div>
+            <h1>Game Over</h1>
+            <button class="button-restart">Restart</button>
+        </div>
+    </section>
+
+    <canvas></canvas>
+
+    <script type="module" src="src/index.js"></script>
+</body>
+</html>
